@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myworld.MainActivity">
+    <item
+        android:id="@+id/action_progress"
+        android:orderInCategory="100"
+        android:title="Current Progress"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set"
+        android:orderInCategory="100"
+        android:title="Set Goals"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_build"
+        android:orderInCategory="100"
+        android:title="World Builder"
+        app:showAsAction="never" />
+</menu>
